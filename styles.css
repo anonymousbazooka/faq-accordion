@@ -1,0 +1,61 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.card-form {
+    margin-top: 13%;
+    margin-left: 18%;
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    border-radius: 30px;
+    position: absolute;
+}
+.questions {
+    display: inline-block;
+    cursor: pointer;
+    padding: 19px;
+    width: 450px;
+    border: 1px solid hsl(275, 100%, 97%);
+    transition-duration: 0.5s;
+    color: hsl(292, 16%, 49%);
+    font-size: 13px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 400;
+ 
+}
+.questions:hover {
+    color: hsl(293, 87%, 57%);
+}
+img {
+   float:right;
+   transition-duration: 0.6s;
+}
+.star {
+    float: none;
+   
+}
+.plus:hover {
+color:hsl(293, 58%, 26%) ;
+}
+.answer {
+    display: none ;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.color {
+  background: url(./color.svg);
+  height: 100vh;
+  background-color: hsl(275, 100%, 97%);
+  width: 1140px;
+  margin-left: 10%;
+}
+.head {
+    display: flex;
+    gap: 15px;
+}
+h1 {
+    font-size: 3rem;
+}
